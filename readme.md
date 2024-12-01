@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://media.discordapp.net/attachments/674208124780937217/1312650546813079582/LOGO.png?ex=674d4496&is=674bf316&hm=bac2f284d3a15cfb15289e41fde05abe83c5ca4e03567545e1fdcbd831a912a7&=&format=webp&quality=lossless&width=442&height=442" alt="Nyebe" width="100" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is my Finals Project to showcase the knowledge I've gained in this course throughout this sem
 </div>
 
 <br />
@@ -59,20 +59,14 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The project is an imitation and reimagining of the STI College's website, this is to showcase my ability in web design. HTML, Bootstrap, and external css was used to accomplish this project.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Animated Hovers
+- Cards
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -92,23 +86,32 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Finals
 └─ assets
 |   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|       └─ style.css
+|
+|
+|
+|
 └─ pages
-|  └─ pageName
+|  | └─ aboutUs
+|  |  | └─ assets
+|  |  |   └─ css
+|  |  |      └─ style.css
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  └─ index.html
+|  └─ works
 |     └─ assets
 |     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
+|     |     └─ style.css
+|     |
+|     |
+|     |
+|     |
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -118,5 +121,4 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| STI Website | Official Website used for reference | https://www.sti.edu/ |
