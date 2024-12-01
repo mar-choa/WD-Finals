@@ -1,0 +1,159 @@
+/* Importing Fun and Dynamic Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* General Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background: #e0d3cd;
+    color: #463464;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #16253a;
+}
+
+.navbar-brand .logo {
+    width: 100px;
+    border-radius:0;
+    margin-right: 10px;
+}
+
+.navbar-brand .navbar-text
+{
+    color: #69889d;
+}
+
+.navbar .nav-link {
+    color: #69889d;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #97adbb;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #97adbb;
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link:hover {
+    color: #ffffff;
+}
+
+/* Header Section */
+.hero-section {
+    background-color: #e0d3cd;
+    background: url('https://media.discordapp.net/attachments/674208124780937217/1312683934315970642/6.png?ex=674d63ae&is=674c122e&hm=b29c79618f7b70b61294a25e7dc53687aabbd83fc8bf77ffe4a9c75781610c86&=&format=webp&quality=lossless&width=786&height=442');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #16253a;
+    padding: 50px 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #16253a;
+}
+
+.hero-section h3
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Body Section */
+
+#about-us
+{
+    background: #e0d3cd
+}
+/* Business Section */
+
+.business-section{
+    background: #16253a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.business-section h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #7fa2b9;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.business-section p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #16253a;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 20px 0;
+}
+
+.cta-section p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.cta-section .cta-button {
+    background-color: #f9efe6 ;
+    color: #16253a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #414e5f;
+    color: #ffffff;
+    transform: scale(1.05);
+}
