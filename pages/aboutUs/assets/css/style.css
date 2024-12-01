@@ -1,6 +1,7 @@
 /* Importing Fun and Dynamic Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 /* General Styles */
 body {
     font-family: "Roboto", sans-serif;
@@ -8,7 +9,7 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #efdae3;
+    background: #e0d3cd;
     color: #463464;
 }
 
@@ -54,8 +55,8 @@ body {
 
 /* Header Section */
 .hero-section {
-    
-    background: url('https://media.discordapp.net/attachments/674208124780937217/1312433442524237844/text_1.png?ex=674c7a64&is=674b28e4&hm=7d720089f9f41513bdd4cab79a3f29c50742d3643af266a57bee2478318b056f&=&format=webp&quality=lossless&width=550&height=309');
+    background-color: #e0d3cd;
+    background: url('https://media.discordapp.net/attachments/674208124780937217/1312683934315970642/6.png?ex=674d63ae&is=674c122e&hm=b29c79618f7b70b61294a25e7dc53687aabbd83fc8bf77ffe4a9c75781610c86&=&format=webp&quality=lossless&width=786&height=442');
     background-repeat: no-repeat;
     background-size: cover;
     color: #16253a;
@@ -87,47 +88,16 @@ body {
     font-style: normal;
 }
 
-/* Services Section */
-.services-section .service-box {
-    background-color: #97adbb;
-    color: #16253a;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, background-color 0.3s;
-    font-family: "Roboto", sans-serif;
-    height: 380px;
-}
+/* Body Section */
 
-.services-section .service-box:hover {
-    transform: translateY(-10px);
-    background-color: #69889d;
+#about-us
+{
+    background: #e0d3cd
 }
-
-.services-section .service-box img {
-    width: 90%;
-    margin-bottom: 10px;
-}
-
-.services-section h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.5rem;
-    margin-bottom: 5px;
-}
-
-.services-section p {
-    font-size: 1rem;
-    color: #16253a;
-    font-weight: 300;
-}
-
 /* Business Section */
 
 .business-section{
-    background-image: url('https://media.discordapp.net/attachments/674208124780937217/1312631454773153914/3.png?ex=674d32ce&is=674be14e&hm=fa9b97c42bbfad58325b6504f0348b49ca9c992e4e31c145a67a024406abc5b7&=&format=webp&quality=lossless&width=786&height=442');
+    background: #16253a;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -136,7 +106,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #16253a;
+    color: #7fa2b9;
     margin-bottom: 20px;
     font-size: 2rem;
 }
@@ -146,7 +116,7 @@ body {
     font-weight: 300;
     font-style: normal;
     font-size: 1.1rem;
-    color: #16253a;
+    color: #ffffff;
     font-weight: 300;
 }
 
