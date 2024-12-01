@@ -88,6 +88,11 @@ body {
 }
 
 /* Services Section */
+.services-section
+{
+    background: #e0d3cd;
+    background-color: #e0d3cd;
+}
 .services-section .service-box {
     background-color: #97adbb;
     color: #16253a;
